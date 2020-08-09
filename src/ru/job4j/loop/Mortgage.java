@@ -7,7 +7,7 @@ public class Mortgage {
         double loan = (amount + (amount * percent)) - salary;
         while (loan > 0) {
             year++;
-            loan = (loan + (loan * percent))-salary;
+            loan = (loan + (loan * percent)) - salary;
         }
 
         return year;
