@@ -18,7 +18,7 @@ public class X2Test {
         int expected = 10;
         /* вызов метода, который хотим проверить. */
         /* Результат вычисления. Это всегда одна переменная. */
-        int rsl = X2.calc(a, b, c, x);
+        int rsl = X2.calculation(a, b, c, x);
         /* сравнение полученного значения с ожидаемым */
         assertThat(rsl, is(expected));
     }
@@ -33,7 +33,7 @@ public class X2Test {
 
         int expected = 3;
 
-        int rsl = X2.calc(a, b, c, x);
+        int rsl = X2.calculation(a, b, c, x);
 
         assertThat(rsl, is(expected));
     }
@@ -48,7 +48,7 @@ public class X2Test {
 
         int expected = 2;
 
-        int rsl = X2.calc(a, b, c, x);
+        int rsl = X2.calculation(a, b, c, x);
 
         assertThat(rsl, is(expected));
     }
@@ -63,7 +63,7 @@ public class X2Test {
 
         int expected = 2;
 
-        int rsl = X2.calc(a, b, c, x);
+        int rsl = X2.calculation(a, b, c, x);
 
         assertThat(rsl, is(expected));
     }
@@ -78,7 +78,7 @@ public class X2Test {
 
         int expected = 1;
 
-        int rsl = X2.calc(a, b, c, x);
+        int rsl = X2.calculation(a, b, c, x);
 
         assertThat(rsl, is(expected));
     }

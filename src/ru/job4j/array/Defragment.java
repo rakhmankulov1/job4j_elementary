@@ -14,10 +14,8 @@ public class Defragment {
                         break;
                     }
                 }
-
             }
         }
-
         return array;
     }
 
@@ -26,7 +24,5 @@ public class Defragment {
         arr[pos1] = arr[pos2];
         arr[pos2] = temp;
         return arr;
-
     }
-
 }

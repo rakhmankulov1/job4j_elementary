@@ -5,5 +5,4 @@ public class StudentInfo {
         System.out.println("Damir Rakhmankulov");
         System.out.println("13.07.2020");
     }
-
 }
